@@ -22,25 +22,26 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                    &copy;  2023 Movix by Akash Pardeshi. All Rights Reserved.
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
+                    <a className="iconLink" href="https://www.facebook.com/akash.pardeshi.54966?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
                         <FaFacebookF />
+                    </a>
                     </span>
                     <span className="icon">
+                    <a className="iconLink" href="https://instagram.com/akashpardeshiap?igshid=ZGUzMzM3NWJiOQ==" target="_blank" rel="noopener noreferrer">
                         <FaInstagram />
+                    </a>
                     </span>
-                    <span className="icon">
+                    {/* <span className="icon">
                         <FaTwitter />
-                    </span>
-                    <span className="icon">
+                    </span> */}
+                    <span  className="icon">
+                    <a className="iconLink" href="https://www.linkedin.com/in/akash-pardeshi-755917206" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin />
+                    </a>
                     </span>
                 </div>
             </ContentWrapper>

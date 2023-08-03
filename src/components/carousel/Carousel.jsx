@@ -43,13 +43,13 @@ const Carousel = ({ data, loading, endpoint }) => {
   return (
     <div className="carousel">
       <ContentWrapper>
-        <BsFillArrowLeftCircleFill
-          className="carouselLeftNav arrow"
-          onClick={() => navigation("left")}
-        />
         <BsFillArrowRightCircleFill
-          className="carouselRightNav arrow"
+          className="carouselLeftNav arrow"
           onClick={() => navigation("right")}
+        />
+        <BsFillArrowLeftCircleFill
+          className="carouselRightNav arrow"
+          onClick={() => navigation("left")}
         />
         {!loading ? (
           <div className="carouselItems" ref={carouselContainer}>
