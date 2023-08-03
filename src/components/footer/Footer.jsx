@@ -2,7 +2,6 @@ import React from "react";
 import {
     FaFacebookF,
     FaInstagram,
-    FaTwitter,
     FaLinkedin,
 } from "react-icons/fa";
 
@@ -35,9 +34,6 @@ const Footer = () => {
                         <FaInstagram />
                     </a>
                     </span>
-                    {/* <span className="icon">
-                        <FaTwitter />
-                    </span> */}
                     <span  className="icon">
                     <a className="iconLink" href="https://www.linkedin.com/in/akash-pardeshi-755917206" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin />
