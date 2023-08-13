@@ -1,24 +1,17 @@
 .pageNotFound {
     height: 700px;
-    padding-top: 220px;
+    padding-top: 200px;
     .contentWrapper {
         text-align: center;
-        color: mix(#f89e00,#da2f68, $weight: 50%);
+        color: var(--black-light);
         display: flex;
         flex-direction: column;
         .bigText {
-            font-size: 91px;
+            font-size: 150px;
             font-weight: 700;
-            margin-bottom: 20px;
         }
         .smallText {
-            color: mix(#f2ac35,#d94974, $weight: 50%);
             font-size: 44px;
-            cursor: pointer;
-            &:hover {
-                text-decoration: underline;
-                color: mix(#f89e00,#da2f68, $weight: 50%);
-            }
         }
     }
 }
