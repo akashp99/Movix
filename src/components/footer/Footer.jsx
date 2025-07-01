@@ -21,7 +21,7 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    &copy;  2024 Movix by Akash Pardeshi. All Rights Reserved.
+                    &copy;  2025 Movix by Akash Pardeshi. All Rights Reserved.
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
