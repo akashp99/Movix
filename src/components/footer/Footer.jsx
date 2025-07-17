@@ -21,7 +21,7 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    &copy;  {new Date().getFullYear()} Movix by Akash Pardeshi. All Rights Reserved Akash.
+                    &copy;  {new Date().getFullYear()} Movix by Akash Pardeshi. All Rights Reserved.
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
