@@ -27,6 +27,8 @@ const DetailsBanner = ({ video, crew }) => {
 
   const director = crew?.filter((f) => f.job === "Director");
   const writer = crew?.filter((f) => f.job === "Screenplay" || f.job === "Story" || f.job === "Writer");
+  console.log("Director Name is: ",director);
+  console.log("Writer Name is: ",writer);
 
   const toHoursAndMinutes = (totalMinutes) => {
     const hours = Math.floor(totalMinutes / 60);
@@ -120,12 +122,12 @@ const DetailsBanner = ({ video, crew }) => {
                                             Director:{" "}
                                         </span>
                                         <span className="text">
-                                            {director?.map((d, i) => {
+                                            {director?.map((d, i) => (
                                                 <span key={i}>
                                                     {d.name}
                                                     {director?.length - 1 !== i && ", "}
                                                 </span>
-                                            })}
+                                            ))}
                                         </span>
                                     </div>
                                 )}
@@ -136,12 +138,12 @@ const DetailsBanner = ({ video, crew }) => {
                                             Writer:{" "}
                                         </span>
                                         <span className="text">
-                                            {writer?.map((d, i) => {
+                                            {writer?.map((d, i) => (
                                                 <span key={i}>
                                                     {d.name}
                                                     {writer?.length - 1 !== i && ", "}
                                                 </span>
-                                            })}
+                                            ))}
                                         </span>
                                     </div>
                                 )}
